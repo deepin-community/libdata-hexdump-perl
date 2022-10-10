@@ -1,0 +1,34 @@
+libdata-hexdump-perl (0.04-1) unstable; urgency=medium
+
+  [ Debian Janitor ]
+  * Bump debhelper from old 10 to 12.
+  * Set debhelper-compat version in Build-Depends.
+
+  [ gregor herrmann ]
+  * debian/watch: use uscan version 4.
+
+  [ Jenkins ]
+  * Bump debhelper from old 12 to 13.
+
+  [ gregor herrmann ]
+  * Import upstream version 0.04.
+  * Add debian/upstream/metadata.
+  * Update handling of example script, following upstream changes.
+  * Update years of packaging copyright.
+  * Declare compliance with Debian Policy 4.6.0.
+  * Set Rules-Requires-Root: no.
+
+ -- gregor herrmann <gregoa@debian.org>  Sun, 26 Sep 2021 15:48:30 +0200
+
+libdata-hexdump-perl (0.02-1.1) unstable; urgency=medium
+
+  * Non maintainer upload by the Reproducible Builds team.
+  * No source change upload to rebuild on buildd with .buildinfo files.
+
+ -- Holger Levsen <holger@debian.org>  Tue, 29 Dec 2020 02:06:52 +0100
+
+libdata-hexdump-perl (0.02-1) unstable; urgency=medium
+
+  * Initial release (closes: #898512).
+
+ -- gregor herrmann <gregoa@debian.org>  Sun, 13 May 2018 00:20:09 +0200
